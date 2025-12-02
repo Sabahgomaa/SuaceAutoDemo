@@ -1,0 +1,11 @@
+[DEBUG] - [02-12-2025 20:43:00] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\star\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml"
+[INFO] - [02-12-2025 20:43:01] [main] [com.swaglabs.Listeners.TestNGListeners] - Test Execution Started
+[INFO] - [02-12-2025 20:43:01] [main] [com.swaglabs.utils.PropertiesUtils] - Loading Properties File Data
+[INFO] - [02-12-2025 20:43:01] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\star\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[DEBUG] - [02-12-2025 20:43:02] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['first-name']
+[INFO] - [02-12-2025 20:43:02] [main] [com.swaglabs.utils.JsonUtils] - Json Path :information-form.first-namein this json filetest-datahas value
+[DEBUG] - [02-12-2025 20:43:02] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['information-form']['last-name']
+[INFO] - [02-12-2025 20:43:02] [main] [com.swaglabs.utils.JsonUtils] - Json Path :information-form.last-namein this json filetest-datahas value
+[INFO] - [02-12-2025 20:43:07] [main] [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
