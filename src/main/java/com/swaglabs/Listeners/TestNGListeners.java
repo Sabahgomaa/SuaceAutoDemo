@@ -17,9 +17,13 @@ public class TestNGListeners implements IExecutionListener, ITestListener, IInvo
     public void onExecutionStart() {
         LogsUtil.info("Test Execution Started");
         loadProperties();
-        FilesUtils.cleanDirectory( allure_result);
+        FilesUtils.cleanDirectory(allure_result);
         FilesUtils.cleanDirectory(logs);
         FilesUtils.cleanDirectory(ScreenShots);
+        FilesUtils.createDirectory(allure_result);
+        FilesUtils.createDirectory(logs);
+        FilesUtils.createDirectory(ScreenShots);
+
     }
     @Override
     public void onExecutionFinish(){

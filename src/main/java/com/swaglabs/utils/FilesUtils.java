@@ -70,4 +70,18 @@ public class FilesUtils {
         }
 
     }
+
+    public static void createDirectory(File path) {
+        if (!path.exists()) {
+            try {
+                Files.createDirectories(path.toPath());
+                LogsUtil.info("Directory created: " + path);
+            } catch (IOException e) {
+                LogsUtil.error("Failed to Create directory: " + e.getMessage());
+            }
+        } else {
+            LogsUtil.info("Directory already exists:" + path);
+        }
+    }
 }
+
